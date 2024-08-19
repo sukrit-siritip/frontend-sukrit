@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.container h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 0.9375em;
+}
+
+.headerfontstyle{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.subheaderfontstyle{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+ flex: 1;
+}
+
+.divider {
+    width: 1px; /* Width of the divider */
+    background-color: transparent; /* Divider color */
+    margin: 0 10px; /* Space on both sides of the divider */
+}
+
+
+  
+  .excel-table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /* Set the table layout to fixed */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 0.9375em;
+    
+    
+  }
+  
+  .excel-table th, .excel-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+    overflow: hidden; /* Hide overflowing text */
+    
+  }
+  
+  .excel-table th {
+    background-color: #889ccc;
+    font-weight: bold;
+  }
+
+  .excel-button-container {
+    text-align: right; /* Align the button to the right */
+}
+
+.refresh-button-container {
+  text-align: center; /* Align the button to the right */
+}
